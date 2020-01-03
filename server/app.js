@@ -3,6 +3,7 @@ const express = require('express');
 const env = require('dotenv');
 const cors = require('cors');
 const db = require('../database/config');
+const router = require('../routers/index');
 
 // environment configuration
 env.config({ path: './config/config.env' });
@@ -16,6 +17,9 @@ app.use(express.json());
 
 // enable node cors middleware
 app.use(cors());
+
+// Rotes
+app.use('/api/v1/address', router.address);
 
 const PORT = process.env.PORT || 4000;
 
