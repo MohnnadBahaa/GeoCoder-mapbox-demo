@@ -16,3 +16,21 @@ exports.getAddresses = async (req, res, next) => {
 		});
 	}
 };
+
+exports.addAddress = async (req, res, next) => {
+	try {
+		const address = await Address.create(req.body);
+
+		return res.status(200).json({
+			success: true,
+			response: address
+		});
+	} catch (error) {
+		console.log(error);
+		if (error.code === 11000)
+			return res
+				.status(400)
+				.json({ success: false, error: 'This address id is already exist' });
+		res.status(500).json({ success: false, error: 'server error' });
+	}
+};
