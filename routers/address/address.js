@@ -4,8 +4,6 @@ const { address } = require('../../controllers/index');
 router
 	.route('/')
 	.get(address.getAddresses)
-	.post((req, res) => {
-		res.send('hello');
-	});
+	.post(address.addAddress);
 
 module.exports = router;
