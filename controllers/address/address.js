@@ -10,7 +10,7 @@ exports.getAddresses = async (req, res, next) => {
 		});
 	} catch (error) {
 		console.log(error);
-		res.status(400).json({
+		res.status(500).json({
 			success: false,
 			error: 'server error'
 		});
@@ -18,6 +18,8 @@ exports.getAddresses = async (req, res, next) => {
 };
 
 exports.addAddress = async (req, res, next) => {
+	console.log(req.body);
+
 	try {
 		const address = await Address.create(req.body);
 
