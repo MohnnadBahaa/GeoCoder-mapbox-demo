@@ -1,5 +1,4 @@
 const { Address } = require('../../models/index');
-
 exports.getAddresses = async (req, res, next) => {
 	try {
 		const addresses = await Address.find();
@@ -18,8 +17,6 @@ exports.getAddresses = async (req, res, next) => {
 };
 
 exports.addAddress = async (req, res, next) => {
-	console.log(req.body);
-
 	try {
 		const address = await Address.create(req.body);
 

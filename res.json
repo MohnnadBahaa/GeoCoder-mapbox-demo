@@ -1,0 +1,109 @@
+{
+    "info": {
+        "statuscode": 0,
+        "copyright": {
+            "text": "\\u00A9 2020 MapQuest, Inc.",
+            "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+            "imageAltText": "\\u00A9 2020 MapQuest, Inc."
+        },
+        "messages": []
+    },
+    "options": {
+        "maxResults": -1,
+        "thumbMaps": true,
+        "ignoreLatLngInput": false
+    },
+    "results": [{
+        "providedLocation": {
+            "location": "aqaba"
+        },
+        "locations": [{
+            "street": "",
+            "adminArea6": "",
+            "adminArea6Type": "Neighborhood",
+            "adminArea5": "",
+            "adminArea5Type": "City",
+            "adminArea4": "",
+            "adminArea4Type": "County",
+            "adminArea3": "AQABA",
+            "adminArea3Type": "State",
+            "adminArea1": "JO",
+            "adminArea1Type": "Country",
+            "postalCode": "",
+            "geocodeQualityCode": "A3XAX",
+            "geocodeQuality": "STATE",
+            "dragPoint": false,
+            "sideOfStreet": "N",
+            "linkId": "364506282",
+            "unknownInput": "",
+            "type": "s",
+            "latLng": {
+                "lat": 29.975096,
+                "lng": 35.20559
+            },
+            "displayLatLng": {
+                "lat": 29.975096,
+                "lng": 35.20559
+            },
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key=5w9dTyNNSVe6gycLPRMkcxifGHpEwygB&type=map&size=225,160&locations=29.975096,35.20559|marker-sm-50318A-1&scalebar=true&zoom=5&rand=808335308"
+        }, {
+            "street": "",
+            "adminArea6": "",
+            "adminArea6Type": "Neighborhood",
+            "adminArea5": "Aqaba",
+            "adminArea5Type": "City",
+            "adminArea4": "",
+            "adminArea4Type": "County",
+            "adminArea3": "",
+            "adminArea3Type": "State",
+            "adminArea1": "JO",
+            "adminArea1Type": "Country",
+            "postalCode": "",
+            "geocodeQualityCode": "A5XAX",
+            "geocodeQuality": "CITY",
+            "dragPoint": false,
+            "sideOfStreet": "N",
+            "linkId": "282817194",
+            "unknownInput": "",
+            "type": "s",
+            "latLng": {
+                "lat": 29.526702,
+                "lng": 35.007822
+            },
+            "displayLatLng": {
+                "lat": 29.526702,
+                "lng": 35.007822
+            },
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key=5w9dTyNNSVe6gycLPRMkcxifGHpEwygB&type=map&size=225,160&locations=29.526702,35.007822|marker-sm-50318A-2&scalebar=true&zoom=12&rand=-1926939118"
+        }, {
+            "street": "",
+            "adminArea6": "",
+            "adminArea6Type": "Neighborhood",
+            "adminArea5": "Aqaba",
+            "adminArea5Type": "City",
+            "adminArea4": "",
+            "adminArea4Type": "County",
+            "adminArea3": "",
+            "adminArea3Type": "State",
+            "adminArea1": "JO",
+            "adminArea1Type": "Country",
+            "postalCode": "",
+            "geocodeQualityCode": "A5XAX",
+            "geocodeQuality": "CITY",
+            "dragPoint": false,
+            "sideOfStreet": "N",
+            "linkId": "282520053",
+            "unknownInput": "",
+            "type": "s",
+            "latLng": {
+                "lat": 29.526995,
+                "lng": 35.077693
+            },
+            "displayLatLng": {
+                "lat": 29.526995,
+                "lng": 35.077693
+            },
+            "mapUrl": "http://www.mapquestapi.com/staticmap/v5/map?key=5w9dTyNNSVe6gycLPRMkcxifGHpEwygB&type=map&size=225,160&locations=29.526995,35.077693|marker-sm-50318A-3&scalebar=true&zoom=12&rand=1140129478"
+        }]
+    }]
+}
